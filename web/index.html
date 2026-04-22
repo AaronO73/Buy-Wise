@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BuyWise — Premium AI Buying Intelligence</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-a"></div>
+  <div class="bg-orb orb-b"></div>
+
+  <header class="topbar">
+    <div class="logo-wrap">
+      <div class="logo-dot"></div>
+      <div class="logo">BuyWise</div>
+    </div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#dashboard">Dashboard</a>
+      <a href="#pricing">Pricing</a>
+    </nav>
+    <button class="cta">Add to Chrome</button>
+  </header>
+
+  <main>
+    <section class="hero card glass">
+      <div>
+        <p class="badge">Trusted AI Shopping Copilot</p>
+        <h1>Pause before you regret it.</h1>
+        <p class="hero-sub">BuyWise helps you decide whether to buy, wait, or skip before checkout with confidence-ranked product signals.</p>
+        <div class="hero-actions">
+          <button class="cta">Add to Chrome</button>
+          <button class="ghost">Open Dashboard</button>
+        </div>
+      </div>
+      <div class="hero-stat-grid">
+        <article class="mini-card"><span>Saved this month</span><strong>$487</strong></article>
+        <article class="mini-card"><span>Bad purchases avoided</span><strong>23</strong></article>
+        <article class="mini-card"><span>Smart verdict accuracy</span><strong>High</strong></article>
+        <article class="mini-card"><span>Pro members</span><strong>12.4K</strong></article>
+      </div>
+    </section>
+
+    <section id="dashboard" class="card panel">
+      <div class="section-title-row">
+        <h2>Live Product Intelligence</h2>
+        <span class="pill">Supported: Amazon · eBay · Walmart · Target · Best Buy</span>
+      </div>
+      <div class="grid two">
+        <div class="analyze-area">
+          <form id="analyze-form">
+            <label for="product-url">Paste product URL</label>
+            <input id="product-url" placeholder="https://www.amazon.com/dp/..." required />
+            <button type="submit" class="cta wide">Analyze with BuyWise AI</button>
+          </form>
+          <div id="analysis-result"></div>
+        </div>
+
+        <aside class="stats-panel">
+          <h3>Account Snapshot</h3>
+          <ul>
+            <li><span>Plan</span><strong>Free</strong></li>
+            <li><span>Saved products</span><strong>12</strong></li>
+            <li><span>Tracked items</span><strong>5 / 5</strong></li>
+            <li><span>Money saved</span><strong>$128</strong></li>
+            <li><span>Purchases avoided</span><strong>9</strong></li>
+            <li><span>Better deals found</span><strong>6</strong></li>
+          </ul>
+          <div class="paywall">
+            <p>Most users save more than $7 with their first smart decision.</p>
+            <button class="cta wide">Unlock smarter buying</button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="features" class="grid three feature-grid">
+      <article class="card glass">
+        <h3>Price Intelligence</h3>
+        <p>Reliable trend-aware timing guidance with confidence scores and transparent fallback logic.</p>
+      </article>
+      <article class="card glass">
+        <h3>Regret Signals</h3>
+        <p>Proactively flags low-rating risk, weak review depth, and poor value before checkout.</p>
+      </article>
+      <article class="card glass">
+        <h3>Cloud Sync</h3>
+        <p>History, tracking, saved items, alerts, settings, and profile sync across devices.</p>
+      </article>
+    </section>
+
+    <section id="pricing" class="card glass pricing">
+      <h2>Designed to save you more than it costs</h2>
+      <div class="grid two">
+        <div class="plan free">
+          <h4>Free</h4>
+          <p>BUY / WAIT / SKIP verdicts with basic reasoning and limited history.</p>
+        </div>
+        <div class="plan pro">
+          <h4>Pro · $7/mo</h4>
+          <p>Unlimited tracking, alerts, full history, savings tracker, and advanced insights.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="card glass">
+      <h2>How it works</h2>
+      <ol>
+        <li>Install extension and log in securely.</li>
+        <li>Shop as usual across supported retailers.</li>
+        <li>BuyWise appears at decision moments with a clear, confident verdict.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>BuyWise · AI-powered insights. Results may vary. Privacy-first by design.</p>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+:root{--line:rgba(128,255,166,.28)}
+body{margin:0;background:radial-gradient(circle at top right,#194734 0,#081119 60%);color:#f1fffa;font-family:Inter,system-ui,sans-serif;width:370px}
+.card{padding:14px}
+.brand{display:flex;align-items:center;gap:8px}.dot{width:11px;height:11px;border-radius:999px;background:linear-gradient(120deg,#14a356,#45f39f);box-shadow:0 0 12px rgba(56,239,145,.7)}
+h1{margin:0;font-size:1.05rem}.sub{margin:7px 0 10px;color:#9dc9b3;font-size:.85rem}
+input{width:100%;padding:10px;border-radius:11px;border:1px solid var(--line);background:#0a141f;color:white}
+button{margin-top:10px;width:100%;padding:10px;border:0;border-radius:999px;background:linear-gradient(120deg,#14a356,#45f39f);color:#062113;font-weight:800;box-shadow:0 10px 28px rgba(42,221,123,.28)}
+#result{margin-top:10px;font-size:.88rem;color:#dbffe8}.micro{opacity:.68;font-size:.74rem;margin-top:9px}

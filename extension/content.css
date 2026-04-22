@@ -1,0 +1,4 @@
+#buywise-chip{position:fixed;right:18px;bottom:18px;z-index:999999;background:linear-gradient(120deg,#14a356,#45f39f);color:#06150c;border-radius:999px;padding:11px 16px;font:700 13px/1.2 Inter,system-ui;border:0;box-shadow:0 12px 35px rgba(20,163,86,.35);cursor:pointer}
+#buywise-panel{position:fixed;right:18px;bottom:66px;z-index:999999;background:linear-gradient(170deg,rgba(11,26,20,.96),rgba(8,16,25,.95));color:#e9fff3;border:1px solid rgba(119,255,166,.32);border-radius:14px;width:330px;padding:13px;font:500 13px/1.45 Inter,system-ui;box-shadow:0 15px 38px rgba(0,0,0,.32)}
+#buywise-panel.hidden{display:none}
+#buywise-panel .muted{opacity:.76;font-size:12px;color:#a1cfb5}

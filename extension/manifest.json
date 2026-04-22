@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "BuyWise",
+  "version": "1.0.0",
+  "description": "AI-powered anti-impulse shopping assistant.",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": [
+    "https://www.amazon.com/*",
+    "https://www.ebay.com/*",
+    "https://www.walmart.com/*",
+    "https://www.target.com/*",
+    "https://www.bestbuy.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.amazon.com/*",
+        "https://www.ebay.com/*",
+        "https://www.walmart.com/*",
+        "https://www.target.com/*",
+        "https://www.bestbuy.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ]
+}
