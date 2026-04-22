@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BuyWise — Pause before you regret it.</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">BuyWise</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#dashboard">Dashboard</a>
+    </nav>
+    <button class="cta">Add to Chrome</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="badge">AI Shopping Copilot</p>
+      <h1>Pause before you regret it.</h1>
+      <p>BuyWise helps you decide whether to buy, wait, or skip before checkout.</p>
+      <div class="hero-actions">
+        <button class="cta">Add to Chrome</button>
+        <button class="ghost">Open Dashboard</button>
+      </div>
+    </section>
+
+    <section id="dashboard" class="panel grid two">
+      <div>
+        <h2>Analyze a product link</h2>
+        <p>Supported retailers: Amazon, eBay, Walmart, Target, Best Buy.</p>
+        <form id="analyze-form">
+          <input id="product-url" placeholder="Paste product URL" required />
+          <button type="submit" class="cta">Analyze</button>
+        </form>
+        <div id="analysis-result"></div>
+      </div>
+      <aside class="stats">
+        <h3>Account Snapshot</h3>
+        <ul>
+          <li>Plan: <strong>Free</strong> <span class="pro">Upgrade to Pro ($7/mo)</span></li>
+          <li>Saved products: <strong>12</strong></li>
+          <li>Tracked items: <strong>5 / 5</strong></li>
+          <li>Money saved: <strong>$128</strong></li>
+          <li>Purchases avoided: <strong>9</strong></li>
+          <li>Better deals found: <strong>6</strong></li>
+        </ul>
+        <div class="paywall">
+          <p>Most users save more than $7 with their first smart decision.</p>
+          <button class="cta">Unlock smarter buying</button>
+        </div>
+      </aside>
+    </section>
+
+    <section id="features" class="panel grid three">
+      <article><h3>Price Intelligence</h3><p>Clear trend-aware timing guidance with confidence scoring.</p></article>
+      <article><h3>Regret Signals</h3><p>Flags low-rated products and weak value buys before checkout.</p></article>
+      <article><h3>Cloud Sync</h3><p>Saved items, tracking, settings, and history synced across devices.</p></article>
+    </section>
+
+    <section id="how" class="panel">
+      <h2>How it works</h2>
+      <ol>
+        <li>Install extension and sign in.</li>
+        <li>Browse supported stores normally.</li>
+        <li>BuyWise detects product pages and gives BUY / WAIT / SKIP verdict.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>BuyWise · Smart shopping decisions · Privacy-first by design</p>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

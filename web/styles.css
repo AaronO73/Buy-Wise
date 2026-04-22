@@ -1,0 +1,51 @@
+:root {
+  --bg: #0b1220;
+  --panel: #121b2f;
+  --muted: #95a1bd;
+  --text: #f4f8ff;
+  --accent: linear-gradient(90deg, #16a34a, #4ade80);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  color: var(--text);
+  background: radial-gradient(circle at top right, #1f2e4d, var(--bg));
+}
+.topbar, .hero, .panel, footer { max-width: 1100px; margin: 0 auto; }
+.topbar { display: flex; justify-content: space-between; align-items: center; padding: 20px; }
+.topbar nav a { color: var(--muted); margin: 0 10px; text-decoration: none; }
+.logo { font-weight: 700; font-size: 1.2rem; }
+.cta, .ghost {
+  border: 0; border-radius: 999px; padding: 10px 16px; color: white; cursor: pointer;
+}
+.cta { background: var(--accent); box-shadow: 0 0 20px rgba(74, 222, 128, .3); }
+.ghost { background: transparent; border: 1px solid #2c3c61; }
+.hero { padding: 48px 20px; }
+.hero h1 { font-size: 3rem; margin: 10px 0; }
+.badge { display: inline-block; background: #1c2b46; border-radius: 999px; padding: 6px 12px; color: #7ad8a3; }
+.panel {
+  margin: 20px auto; background: rgba(18, 27, 47, 0.8);
+  border: 1px solid #2b3c5f; border-radius: 20px; padding: 24px;
+}
+.grid { display: grid; gap: 20px; }
+.two { grid-template-columns: 1.6fr 1fr; }
+.three { grid-template-columns: repeat(3, 1fr); }
+input {
+  width: 100%; background: #0d1527; border: 1px solid #2c3d63; color: white;
+  border-radius: 12px; padding: 12px; margin-bottom: 12px;
+}
+#analysis-result { margin-top: 12px; }
+.result {
+  border: 1px solid #395381; border-radius: 14px; padding: 14px; background: #0d1528;
+}
+.verdict { font-weight: 800; font-size: 1.5rem; margin-bottom: 6px; }
+.verdict.buy { color: #4ade80; }
+.verdict.wait { color: #facc15; }
+.verdict.skip { color: #f87171; }
+.meta { color: var(--muted); font-size: .93rem; }
+.micro { opacity: .65; font-size: .78rem; margin-top: 8px; }
+.pro { color: #7ad8a3; margin-left: 8px; }
+.paywall { margin-top: 12px; padding: 12px; border-radius: 12px; border: 1px solid #314669; background: #0f1b30; }
+footer { padding: 30px 20px 50px; color: var(--muted); }
+@media (max-width: 900px) { .two, .three { grid-template-columns: 1fr; } .hero h1 { font-size: 2rem; } }
